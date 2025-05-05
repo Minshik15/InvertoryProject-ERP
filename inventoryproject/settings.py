@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-2f*zznxxdc22&5zngq0edusr=7ayj3k=2_xtxbz^)@ff6e@zl(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['invertoryproject-erp.onrender.com','your-other-domain.com']
 
 # Application definition
 

@@ -53,7 +53,7 @@ def staff_detail(request, pk):
     workers = User.objects.get(id=pk)
     context = {
         'workers': workers,
-        'workers_count': workers.count,
+
     }
     return render(request, 'dashboard/staff_detail.html', context)
 

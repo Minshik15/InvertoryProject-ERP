@@ -26,6 +26,8 @@ SECRET_KEY = 'django-insecure-2f*zznxxdc22&5zngq0edusr=7ayj3k=2_xtxbz^)@ff6e@zl(
 DEBUG = True
 
 ALLOWED_HOSTS = ['invertoryproject-erp.onrender.com','your-other-domain.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+
 
 # Application definition
 
